@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Pinky fluffy",
+    "description": "Polera crop ros",
+    "price": 2856,
+    "thumbnail": "https://i.ibb.co/Y4g4Hkc/206129-800-auto.webp",
+    "category": "sweaters",
+    "status": true,
+    "code": "abc123",
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "title": "Crazy Pins",
+    "description": "Remera manga corta lisa con pines",
+    "price": 8562,
+    "thumbnail": "https://i.ibb.co/m0bFwfS/167737-800-auto.webp",
+    "category": "remeras",
+    "status": true,
+    "code": "abd124",
+    "stock": 87
+  },
+  {
+    "id": 3,
+    "title": "Lady Cargo",
+    "description": "Falda de jean tipo cargo",
+    "price": 5080,
+    "thumbnail": "https://i.ibb.co/n1C0YdK/202346-800-auto.webp",
+    "category": "faldas",
+    "status": true,
+    "code": "abd125",
+    "stock": 55
+  },
+  {
+    "id": 4,
+    "title": "Sexy Night",
+    "description": "Vestido corto negro, tipo lencero",
+    "price": 5500,
+    "thumbnail": "https://i.ibb.co/48PrKR7/203758-800-auto.webp",
+    "category": "vestidos",
+    "status": true,
+    "code": "abd126",
+    "stock": 85
+  },
+  {
+    "id": 5,
+    "title": "Distressed",
+    "description": "Pantalón de jean recto con roturas",
+    "price": 8800,
+    "thumbnail": "https://i.ibb.co/sVSM0J1/204400-800-auto.webp",
+    "category": "pantalones",
+    "status": true,
+    "code": "abd127",
+    "stock": 75
+  },
+  {
+    "id": 6,
+    "title": "Rocker Lady",
+    "description": "Gamulán simil cuero con corderito",
+    "price": 9920,
+    "thumbnail": "https://i.ibb.co/1Xc1hsp/205721-800-auto.webp",
+    "category": "abrigos",
+    "status": true,
+    "code": "abd128",
+    "stock": 52
+  },
+  {
+    "id": 7,
+    "title": "Cargo Fun",
+    "description": "Pantalón de jean cargo",
+    "price": 8480,
+    "thumbnail": "https://i.ibb.co/mXw6ZQT/1508551142az2.webp",
+    "category": "pantalones",
+    "status": true,
+    "code": "abd129",
+    "stock": 77
+  },
+  {
+    "id": 8,
+    "title": "Remera lisa",
+    "description": "Remera manga corta entallada",
+    "price": 5741,
+    "thumbnail": "https://i.ibb.co/Q9yxk5P/remera-basica.jpg",
+    "category": "remeras",
+    "status": true,
+    "code": "abd130",
+    "stock": 48
+  },
+  {
+    "id": 9,
+    "title": "Cruel Winter",
+    "description": "Tapado de paño escoses largo",
+    "price": 8740,
+    "thumbnail": "https://i.ibb.co/QPzgH9P/205035-800-auto.webp",
+    "category": "abrigos",
+    "status": true,
+    "code": "abd131",
+    "stock": 87
+  },
+  {
+    "id": 10,
+    "title": "Coquette",
+    "description": "Falda corta de jean con tablas",
+    "price": 7781,
+    "thumbnail": "https://i.ibb.co/f1dcYxy/204479-800-auto.webp",
+    "category": "faldas",
+    "status": true,
+    "code": "abd132",
+    "stock": 71
+  },
+  {
+    "id": 11,
+    "title": "Hippie Vibes",
+    "description": "pantalon prueba",
+    "price": "8700",
+    "category": "pantalones",
+    "status": true,
+    "thumbnail": "https://i.ibb.co/XjrvQVL/D-NQ-NP-2-X-680295-MLA69309312604-052023-F.webp",
+    "code": "653hhh",
+    "stock": "65"
+  }
+]

@@ -1,0 +1,42 @@
+<div id="titlePrincipal">
+    <h2>Bienvenido</h2>
+</div>
+
+<div class="container-profile">
+    <h3>Usuario: {{user.first_name}} {{user.last_name}}</h3>
+    <h3>Admin: {{user.role}}</h3
+    <div>
+        <form action="/api/sessions/logout" method="get">
+            <button type="submit" class="botons">Log Out</button>
+        </form>
+    </div>
+</div> 
+
+<div class="controller"> 
+  {{#if data.hasNextPage}}
+    <a href="/products?page={{data.nextPage}}&limit={{data.limit}}">Página siguiente</a>
+  {{/if}}
+  
+  {{#if data.hasPrevPage}}
+    <a href="/products?page={{data.prevPage}}&limit={{data.limit}}">Página anterior</a>
+  {{/if}}
+
+</div>
+
+<div class="list-products">
+    {{#each data.docs}}
+      <article class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="{{this.thumbnail}}" height="310" width="200"/>
+            </div>
+            <div class="contentBx" id="compra">
+                <h2>{{this.title}}</h2>
+                <p>${{this.price}}</p>
+                <button class="botons" type="button" id="buy" href="#">Comprar</button>
+            </div>
+        </div>
+      </article> 
+    {{/each}}
+</div>
+

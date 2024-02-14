@@ -1,0 +1,22 @@
+<div id="titlePrincipal">
+    <h2>Detalle de carrito {{cart._id}}</h2>
+    <br />
+    <h3>Products</h3>
+</div>
+
+<div class="form-cart">
+{{#each cart.products}}
+    <li>
+        <h4>Title: {{product.title}}</h4>
+        <p>ID: {{product._id}}</p>
+        <p>Description: {{product.description}}</p>
+        <p>Code: {{peoduct.code}}</p>
+        <p>Price: {{product.price}}</p>
+        <p>Status: {{product.status}}</p>
+        <p>Stock: {{product.stock}}</p>
+        <p>Category: {{product.category}}</p>
+        <p>Thumbnail: {{product.thumbnail}}</p>
+        <p>quantity: {{this.quantity}}</p>
+    </li>
+{{/each}} 
+</div>

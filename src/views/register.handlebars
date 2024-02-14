@@ -1,0 +1,29 @@
+<div id="titlePrincipal">
+    <h2>Registrate</h2>
+</div>
+
+<div class="login-container">
+    <form id="myForm" method="post" class="speaker-form" action="/api/sessions/register">
+    <div class="form-row">
+      <label for="full-name">Nombre</label>
+      <input id="first_name" name="first_name" type="text" />
+    </div>
+    <div class="form-row">
+      <label for="full-user">Apellido</label>
+      <input id="last_name" name="last_name" type="text" />
+    </div>
+    <div class="form-row">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="joe@example.com" />
+    </div>
+    <div class="form-row">
+      <label for="full-user">Edad</label>
+      <input id="age" name="age" type="text" />
+    </div>
+    <div class="form-row">
+      <label for="full-user">Contraseña</label>
+      <input id="password" name="password" type="password" />
+    </div>
+    <button type="submit" class="botons">Crear Usuario</button>
+  </form>
+</div>

@@ -1,0 +1,22 @@
+<div id="titlePrincipal">
+    <h2>Restaurar Contraseña</h2>
+</div>
+
+<div class="restore-container">
+    <form action="/api/sessions/restore" method="post" style="margin-top: 24px;">
+        <div class="input-group" style="width: 300px; margin-bottom: 32px;">
+            <span class="input-group-text" id="group1"><i class="bi bi-person-heart"></i></span>
+            <input type="text" name="email" class="form-control" placeholder="Email" required: "required" style="width: 300px;">
+        </div>
+        <div class="input-group" style="width: 300px; margin-bottom: 32px;">
+            <span class="iput-group-text" id="group2"><i class="bi bi-activity"></i></span>
+            <input type="password" name="password" class="form-control" placeholder="Nueva contraseña" style="width: 300px;"> 
+        </div>
+        <button type="submit" class="botons">Restaurar Contraseña</button>
+    </form>
+        <div>
+        <form action="/login" method="get" style="margin-top: 24px;">
+            <button type="submit" class="botons">Volver a Login</button>
+        </form>
+    </div>
+</div>

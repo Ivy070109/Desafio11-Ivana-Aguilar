@@ -1,0 +1,29 @@
+<div id="titlePrincipal">
+    <h2>Login de Usuario</h2>
+</div>
+
+<div class="login-container">
+    <form action="/api/sessions/login" method="post" style="margin-top: 24px;">
+        <div class="input-group" style="width: 300px; margin-bottom: 32px;">
+            <span class="input-group-text" id="group1"><i class="bi bi-person-heart"></i></span>
+            <input type="text" name="email" class="form-control" placeholder="Email" required: "required" style="width: 300px;">
+        </div>
+        <div class="input-group" style="width: 300px; margin-bottom: 32px;">
+            <span class="iput-group-text" id="group2"><i class="bi bi-activity"></i></span>
+            <input type="password" name="password" class="form-control" placeholder="Contraseña" style="width: 300px;"> 
+        </div>
+        <div style="margin-bottom: 32px;">
+            <a href="/api/sessions/github">Ingresar con Github</a>
+        </div>
+        <div style="margin-botton: 32px;">
+            <a href="/restore">Restaurar Contraseña</a>
+        </div>
+        <br />
+        <button type="submit" class="botons">Ingresar</button>
+    </form>
+    <div>
+        <form action="/register" method="get" style="margin-top: 24px;">
+            <button type="submit" class="botons">Registrate</button>
+        </form>
+    </div>
+</div>

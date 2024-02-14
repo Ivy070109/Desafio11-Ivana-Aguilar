@@ -1,0 +1,71 @@
+#chat-container {
+  width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  height: 640px;
+  background-color: #b956e4;
+  margin: 30 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+#nombreUsuario {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+#chat-messages {
+  background-color: #b956e4;
+  height: 500px;
+  overflow-y: scroll;
+  border: 1px solid, #0a0909;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-bottom: 5px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.message .sender-name {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#contenido {
+  width: 600px;
+  height: 500px;
+}
+
+#formulario {
+  margin-top: 10px;
+  display: flex;
+}
+
+#mensaje {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #880ae2;
+  color: black;
+}
+
+/* Submit button styles */
+#formulario input[type="submit"] {
+  margin-left: 10px;
+  background-color: #880ae2;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formulario input[type="submit"]:hover {
+  background-color: #040b12;
+}

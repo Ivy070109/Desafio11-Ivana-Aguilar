@@ -1,0 +1,16 @@
+<div id="chat-container">
+    <h2 id="nombreUsuario">Username</h2>
+    <div id="chat-messages">
+        <div class="message sender" id="contenido">
+            <p id="chat"> </p>
+        </div>
+    </div>
+    <form id="formulario">
+        <input type="text" name="mensaje" id="mensaje" placeholder="Escribe tu consulta">
+        <input type="submit" value="Enviar" />
+    </form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/static/js/chat.js"></script>

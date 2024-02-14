@@ -1,0 +1,21 @@
+<div id="titlePrincipal">
+    <h1>BIENVENIDOS</h1>
+    <h3>Nuevos Ingresos</h3>
+</div>
+
+{{#each productsList.docs}}
+    <article class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="{{thumbnail}}" height="310" width="200"/>
+            </div>
+            <div class="contentBx" id="compra">
+                <h2>{{this.title}}</h2>
+                <p>${{this.price}}</p>
+                <button class="botons" type="button" id="buy" href="#">Comprar</button>
+            </div>
+        </div>
+    </article> 
+{{/each}}
+
+

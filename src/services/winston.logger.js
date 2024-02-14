@@ -19,6 +19,7 @@ const customLevelsOptions = {
         fatal: 'magenta'
     }
 }
+
 const loggingConfig = {
     dev: [
         new winston.transports.Console({
@@ -38,7 +39,7 @@ const loggingConfig = {
             ),
         }),
         new winston.transports.File({
-            filename: `${config.__DIRNAME}/logs/errors.log`,
+            filename: `${config.__DIRNAME}/logs/errors.logs`,
             level: 'error',
             format: winston.format.simple()
         })
@@ -50,8 +51,9 @@ const addLogger = (req, res, next) => {
         levels: customLevelsOptions.levels,
         transports: loggingConfig[`${config.__DIRNAME}/logs/errors.log`]
     })
-    req.logger.http(`${req.method} at ${req.url} - ${new Date().toString()} `);
-    next();
+    req.logger.http(`${req.method} at ${req.url} - ${new Date().toString()} `)
+    next()
 }
 
 export default addLogger
+
